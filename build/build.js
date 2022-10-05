@@ -1,4 +1,5 @@
 const { build } = require('esbuild')
+const  = require('./plugins/envPlugin')
 
 async function runBuild() {
   // 异步方法，返回一个 Promise
@@ -33,6 +34,7 @@ async function runBuild() {
     loader: {
       '.png': 'base64',
     },
+    plugins: [],
   })
   // eslint-disable-next-line no-console
   console.log(result)
