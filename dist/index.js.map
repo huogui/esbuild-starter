@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.js"],
+  "sourcesContent": ["function sayHello(){\r\n    console.log(\"sayHello\")\r\n}\r\n\r\nsayHello()"],
+  "mappings": ";AAAA,SAAS,WAAU;AACf,UAAQ,IAAI,UAAU;AAC1B;AAEA,SAAS;",
+  "names": []
+}

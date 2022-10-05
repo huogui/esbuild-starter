@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"build": "./node_modules/.bin/esbuild src/index.js --bundle --outfile=dist/out.js"
+	},
+	"devDependencies": {
+		"@huogui/eslint-config": "^1.1.30",
+		"esbuild": "^0.15.10",
+		"eslint": "^8.24.0"
+	}
+}
